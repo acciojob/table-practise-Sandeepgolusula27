@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+
+
+/* Table Border Requirement: 1px solid black for table, th, tr, and td */
+        table, th, tr, td {
+            border: 1px solid black;
+        }
+
+        /* Table Background Requirement: Yellow */
+        table {
+            background-color: yellow;
+            border-collapse: collapse; /* Optional: ensures borders don't double up */
+            font-family: serif;
+        }
+
+        /* Padding for clear visibility */
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        /* Styling for the Caption as shown in the image */
+        caption {
+            font-size: 24px;
+            font-weight: normal;
+            margin-bottom: 5px;
+            color: black;
+        }
